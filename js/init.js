@@ -194,7 +194,7 @@ function searchQuery() {
 	}
 }
 function msg() {
-	$('.ch-msg-wrap').animate({
+	$('.ch-msg-wrap').show().animate({
 		opacity: 1
 	});
 	
